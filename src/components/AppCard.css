@@ -1,0 +1,33 @@
+.AppCard{
+  border-radius: 20px;
+  margin: 3px 0px;
+  padding: 0px;
+  border: 2px solid black;
+}
+
+.CardHeight{
+  height: 50px;
+}
+
+@media (min-width: 400px) {
+  .CardHeight{
+    height: 80px;
+  }
+}
+
+@media (min-width: 800px) {
+  .CardHeight{
+    height: 100px;
+  }
+}
+
+.CloseAppCard{
+  background: linear-gradient( #000, transparent 2px), linear-gradient( 90deg, #000, transparent 2px);
+  background-size: 15px 15px;
+  background-position: center center;
+}
+
+.DeletedAppCard{
+  background-color: #FFFFFF;
+  margin: 5px 2px;
+}
